@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5    ">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Survey-form
+    </title>
+</head>
+
+<body>
+    <div class="placakard">
+        <h1 id="title">
+            Purrfect Cookies Co.
+        </h1>
+        <p id="description">
+            We here at Purrfect Cookies Co. are dedicated to delivering
+            <br>
+            the finest cookies crafted by our team of
+            talented feline pastry chefs.
+            <br>
+            <br>
+            <em>
+                <b>
+                    Your feedback is invaluable to us, as it helps us continually improve our products and services.
+                </b>
+            </em>
+        </p>
+        <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+            <fieldset>
+                <label id="name-label">
+                    Enter your name:
+                    <input type="text" name="feedback_name" id="name" placeholder="Your Name" required />
+                </label>
+                <!-- <br> -->
+                <label id="email-label">
+                    Enter your email:
+                    <input type="email" name="email-label" id="email" placeholder="Your Email" required />
+                </label>
+                <!-- <br> -->
+                <label id="number-label">
+                    Enter your age(optional):
+                    <input type="number" name="age_optional" id="age" min="8" max="120" placeholder="Enter your age" />
+                </label>
+                <!-- <br> -->
+                <label for="phone-label">
+                    Enter your Phone number(optional):
+                    <input type="number" name="phone_number" id="number" min="1111111111" max="9999999999"
+                        placeholder="Kindly skip the country code" />
+                </label>
+
+                <label for="marketing
+                class=" question">
+                    How did you hear about our company?
+                </label>
+                <select name="source" id="dropdown">
+                    <option value="">
+                        Select One
+                    </option>
+                    <option value="social">
+                        Social Media(Instagram,Youtube,Twitter)
+                    </option>
+                    <option value="email">
+                        Email chain letter
+                    </option>
+                    <option value="spamcall">
+                        Form a marketing call
+                    </option>
+                    <option value="Other">
+                        Others
+                    </option>
+                </select>
+                <br>
+                <label for="option" class="question">
+                    On a scale of one to five rate our cookies:
+                </label>
+                <br>
+                <div id="radio-group">
+                    <label class="radiocheck">
+                        <input type="radio" name="option" id="rating" class="rating" value=1 />
+                        One
+                    </label>
+                    <br>
+                    <label class="radiocheck">
+                        <input type="radio" name="option" id="rating" class="rating" value=2 />
+                        Two
+                    </label>
+                    <br>
+                    <label class="radiocheck">
+                        <input type="radio" name="option" id="rating" class="rating" value=3 />
+                        Three
+                    </label>
+                    <br>
+                    <label class="radiocheck">
+                        <input type="radio" name="option" id="rating" class="rating" value=4 />
+                        Four
+                    </label>
+                    <br>
+                    <label class="radiocheck">
+                        <input type="radio" name="optionl" id="rating" class="rating" value=5 />
+                        Five
+                    </label>
+                </div>
+                <br>
+                <label class="checkbox">
+                    In what aspect do you think we should we improve upon?
+                    <br>
+                    <input type="checkbox" name="sfidx" id="stfindex" class="check" value="packing" />
+                    packaging
+                    <br>
+                    <input type="checkbox" name="sfidx" id="stfindex" class="check" value="flavours" />
+                    flavours
+                    <br>
+                    <input type="checkbox" name="sfidx" id="stfindex" class="check" value="quality" />
+                    quality
+                    <br>
+                    <input type="checkbox" name="sfidx" id="stfindex" class="check" value="flavours" />
+                    prices
+                    <br>
+                </label>
+                <label for="textarea">
+                    Would you like to tell something else ?
+                    <textarea name="feedback" id="feed" class="feedback"
+                        placeholder="I would like Purrfect Cookies too...">
+                </textarea>
+                </label>
+            </fieldset>
+            <h2 class="foot">
+                <em>
+                    Thank you for completing this survey-form
+                    <br>
+                    please click on the submit button below to submit the form:
+                </em>
+            </h2>
+            <br>
+            <input type="submit" value="Submit" id="submit" />
+        </form>
+        <br>
+    </div>
+</body>
+
+</html>

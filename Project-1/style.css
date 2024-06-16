@@ -1,0 +1,117 @@
+body{
+    background-image: url(Back.jpg);
+    /* background-color: black; */
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.placakard{
+    background-color: rgb(183, 137, 86);
+    opacity: 0.9;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1300px;
+    margin-top:100px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+/* targetting the ids components */
+#title  {
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#description{
+    text-align: center;
+    color: white;
+}
+#survey-form{
+    text-align: center;
+    color: white;   
+}
+fieldset{
+    border: none;
+    text-align: left;
+    padding: 10px 30px 0 30px;
+}
+
+label{
+    font-size: 20px;
+}
+select{
+    display: block;
+    margin-left: 60px;
+    width: 40%;
+    min-height: 30px;
+    border-bottom: 20px;
+}
+input
+{
+    width:80%;
+    display: block;
+    min-height: 30px;
+    width: 40%x;
+    margin-top:10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(219, 216, 208);
+    border-radius: 5px;
+}
+.rating{
+    display: inline; 
+    vertical-align: middle;
+    width: unset;
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-left:0px;
+    margin-right:0px;
+}
+input[name="optionl"]{
+    display: inline; 
+    vertical-align: middle;
+    width: unset;
+    margin-top:0px;
+    margin-bottom: 10px;
+    margin-left:0px;
+    margin-right:0px;
+}
+.check{
+    width:unset;
+    display: inline;
+    padding: 5px;
+    margin: auto;
+    vertical-align: middle;
+    margin-bottom:5px;
+}
+.question{
+    text-align: right;
+}
+.foot{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color:white;
+    text-align: center;
+}
+textarea{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 68%;
+    height: 80px;
+}
+input[type="submit"]{
+    width: 30%;
+    margin:auto;
+    min-height: 2em;
+
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: rgb(219, 216, 208);
+}

@@ -1,0 +1,54 @@
+body{
+    background-color: white;
+}
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+.desc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.card{
+    width:70vw;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-top:60px;
+    margin-bottom:7 0px;
+    height: max-content;
+}
+img{
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.para{
+    text-align: left;
+    /* padding: 30px; */
+    margin: auto;
+}
+figcaption{
+    text-align: center;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}.jap{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:5px;
+}
+.foot{
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
