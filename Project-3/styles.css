@@ -7,17 +7,23 @@ body{
     padding:10px;
     width: 70%;
 }
-.navbar{
+#navbar{
+    position: fixed;
+    left: 0;
+    width: max-content;
+    /* border-right: 2px solid black; */
+    height: max-content;
     background-color: aliceblue;
     border-radius: 10px;
-    height: min-content;
-    
+    padding: 5px;
 }
 .main-section{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-wrap: wrap;
-    width: 100%;
+    width: 80%;
+    margin-left: 30%;
+    padding: 10px;
 }
 .head{
     font-family: Arial, Helvetica, sans-serif;
