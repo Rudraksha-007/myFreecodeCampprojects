@@ -21,11 +21,11 @@ body {
 }
 .logo {
     /* border:1px solid; */
-    width: 30%;
+    width: 20%;
 }
 .logo>img {
     height: 100%;
-    width: 100%;
+    width: 110%;
 }
 
 #nav-bar {
@@ -33,6 +33,8 @@ body {
     display: flex;
     width: max-content;
     padding: 10px;
+    z-index: 2;
+    position: fixed;
 }
 
 ul {
@@ -174,3 +176,10 @@ h6{
     margin-left: auto;
     margin-right: auto;
 }
+@media (max-width: 650px) {
+    .logo {
+      margin-top: 15px;
+      width: 50%;
+      position: relative;
+    }
+  }
