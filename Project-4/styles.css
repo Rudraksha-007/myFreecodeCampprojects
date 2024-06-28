@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    border: 1px solid;
+    border-bottom: 1px solid;
     height: 75px;
     padding-left: 20px;
     padding-right: 20px;
@@ -22,13 +22,15 @@ body {
 .logo {
     /* border:1px solid; */
     width: 20%;
+    z-index: 2;
 }
 .logo>img {
     height: 100%;
     width: 110%;
+    z-index: 2;
 }
 
-#nav-bar {
+#nav-bar {  
     margin-left: 40vw;
     display: flex;
     width: max-content;
